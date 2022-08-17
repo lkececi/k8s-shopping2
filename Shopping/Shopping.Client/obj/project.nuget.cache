@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BbgXmP6jSB3ykaO3lhqOj2FCX2Ktql/bqJLTl3WK6dRRMNJZI2yELNxHmBVL3FeWiFNO/DGt4H1tp6iIbwHmGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\levent.kececi\\source\\repos\\run-devops\\Shopping\\Shopping.Client\\Shopping.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\levent.kececi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
