@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using System.Net.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Shopping.Client.Models;
