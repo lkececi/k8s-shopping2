@@ -1,9 +1,16 @@
-var builder = WebApplication.CreateBuilder(args);
+using Shopping.Client;
+
+var builder = WebApplication.CreateBuilder(args); // existed
+
+var startup = new Startup(builder.Configuration);
+startup.ConfigureServices(builder.Services); // calling ConfigureServices method
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-var app = builder.Build();
+var app = builder.Build(); // existed
+
+startup.Configure(app, builder.Environment); // calling Configure method
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
